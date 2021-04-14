@@ -22,3 +22,13 @@ if they don't provide it up front.
 garden write
 garden write -t "Some Title"
 ```
+
+## Development
+
+### Testing
+NOTE: tests depend on a shell script being executable by the test framework. If tests fail, ensure that `./tests/fake-editor.sh` has executable permissions by running `ls -l` in the 
+
+
+```shell
+cargo test
+```
